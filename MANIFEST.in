@@ -1,0 +1,2 @@
+include README.rst AUTHORS.rst LICENSE .coveragerc .pylintrc
+recursive-include tests *.py

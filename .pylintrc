@@ -1,0 +1,6 @@
+[MASTER]
+ignore=tests
+
+[REPORTS]
+output-format = text
+reports = yes

@@ -1,0 +1,8 @@
+[run]
+branch = True
+
+[report]
+precision = 2
+
+[html]
+directory = reports/coverage

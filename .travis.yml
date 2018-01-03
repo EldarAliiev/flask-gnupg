@@ -1,0 +1,17 @@
+dist: trusty
+sudo: required
+language: python
+python:
+  - "3.4"
+  - "3.5"
+  - "3.6"
+addons:
+apt:
+  packages:
+    - gnupg2
+install: pip install tox-travis Flask python-gnupg python-coveralls
+script: tox
+after_success:
+  - coveralls
+notifications:
+    email: false
