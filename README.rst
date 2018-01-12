@@ -25,7 +25,11 @@ Flask-GnuPG
 .. image:: https://img.shields.io/github/contributors/EldarAliiev/flask-gnupg.svg
     :target: https://github.com/EldarAliiev/flask-gnupg/graphs/contributors
 
+.. image:: https://api.codeclimate.com/v1/badges/2ecaab472f918efb3bab/maintainability
+   :target: https://codeclimate.com/github/EldarAliiev/flask-gnupg/maintainability
 
+.. image:: https://api.codeclimate.com/v1/badges/2ecaab472f918efb3bab/test_coverage
+   :target: https://codeclimate.com/github/EldarAliiev/flask-gnupg/test_coverage
 
 Flask extension for work with GnuPG based on python-gnupg.
 
